@@ -18,6 +18,9 @@
 
 cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
 
+# Set C++-11
+set (CMAKE_CXX_STANDARD 11)
+
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/../../../../hadoop-common-project/hadoop-common/)
 include(HadoopCommon)
 
